@@ -10,7 +10,7 @@
         "service": [],
         "verificationMethod": [
             {
-                "id": "did:web:dhanendras.github.io:DID-Resolve:31642dc4-5f70-4310-bf6a-d74ed7031dbc",
+                "id": "did:web:dhanendras.github.io:DID-Resolve:31642dc4-5f70-4310-bf6a-d74ed7031dbc#key-0",
                 "type": "Ed25519VerificationKey2020",
                 "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
                 "controller": "did:web:dhanendras.github.io:DID-Resolve:31642dc4-5f70-4310-bf6a-d74ed7031dbc",
@@ -18,10 +18,10 @@
             }
         ],
         "authentication": [
-            "did:web:dhanendras.github.io:DID-Resolve:31642dc4-5f70-4310-bf6a-d74ed7031dbc"
+            "did:web:dhanendras.github.io:DID-Resolve:31642dc4-5f70-4310-bf6a-d74ed7031dbc#key-0"
         ],
         "assertionMethod": [
-            "did:web:dhanendras.github.io:DID-Resolve:31642dc4-5f70-4310-bf6a-d74ed7031dbc"
+            "did:web:dhanendras.github.io:DID-Resolve:31642dc4-5f70-4310-bf6a-d74ed7031dbc#key-0"
         ]
     }
 ]
