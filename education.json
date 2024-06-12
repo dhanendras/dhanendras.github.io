@@ -26,7 +26,6 @@
         "subjectNumber": "${subjectNumber}",
         "monthYearExam": "${monthYearExam}",
         "instituteName": "${instituteName}",
-        "studentName": "${studentName}",
         "enrollmentNumber": "${enrollmentNumber}"
     }
 }
