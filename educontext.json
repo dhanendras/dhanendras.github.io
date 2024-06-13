@@ -10,7 +10,7 @@
       "dob":"schema:birthDate",
       "gender":"schema:gender",
       "grade":"schema:Text",
-      "marks":"schema:marks",
+      "marks":"schema:Text",
       "percentage":"schema:Text",
       "result":"schema:Text",
       "subjectNumber":"schema:Text",
