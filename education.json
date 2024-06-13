@@ -19,7 +19,7 @@
         "dob": "${dob}",
         "gender": "${gender}",
         "grade": "${grade}",
-        "marks": #if($marks)$marks#else#set($marks = '"[]"') $marks#end,
+        "marks": "${marks}",
         "studentName": "${studentName}",
         "percentage": "${percentage}",
         "result": "${result}",
