@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1"
+    ],
+    "id": "did:web:dhanendras.github.io:DID-Resolve:7ca352ae-1273-443b-856b-5afe6acca420",
+    "alsoKnownAs": [
+        "did.dhanendra@gmail.com.dhanendra"
+    ],
+    "service": [],
+    "verificationMethod": [
+        {
+            "id": "did:web:dhanendras.github.io:DID-Resolve:7ca352ae-1273-443b-856b-5afe6acca420#key-0",
+            "type": "Ed25519VerificationKey2020",
+            "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+            "controller": "did:web:dhanendras.github.io:DID-Resolve:7ca352ae-1273-443b-856b-5afe6acca420",
+            "publicKeyMultibase": "z6MknNrTQ2F38zfezfHhoKJPFu2aq7B5dVS79C4stAwsZh94"
+        }
+    ],
+    "authentication": [
+        "did:web:dhanendras.github.io:DID-Resolve:7ca352ae-1273-443b-856b-5afe6acca420#key-0"
+    ],
+    "assertionMethod": [
+        "did:web:dhanendras.github.io:DID-Resolve:7ca352ae-1273-443b-856b-5afe6acca420#key-0"
+    ]
+}
