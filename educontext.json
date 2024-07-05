@@ -1,1 +1,22 @@
-{    "@context": {        "@version": 1.1,        "@protected": true,        "type": "@type",        "schema": "https://schema.org/",        "EducationCredential": {            "@id": "https://dhanendras.github.io/educontext.json#EducationCredential"        },        "dob": "schema:dob",        "gender": "schema:gender",        "grade": "schema:grade",        "marks": "schema:marks",        "percentage": "schema:percentage",        "result": "schema:result",        "subjectNumber": "schema:subjectNumber",        "monthYearExam": "schema:monthYearExam",        "instituteName": "schema:instituteName",        "studentName": "schema:studentName",        "enrollmentNumber": "schema:enrollmentNumber"    }}
+{
+   "@context":{
+      "@version":1.1,
+      "@protected":true,
+      "type":"@type",
+      "schema":"https://schema.org/",
+      "EducationCredential":{
+         "@id":"https://dhanendras.github.io/educontext.json#EducationCredential"
+      },
+      "dob":"schema:birthDate",
+      "gender":"schema:gender",
+      "grade":"schema:Text",
+      "marks":"schema:Text",
+      "percentage":"schema:Text",
+      "result":"schema:Text",
+      "subjectNumber":"schema:Text",
+      "monthYearExam":"schema:Text",
+      "instituteName":"schema:Text",
+      "studentName":"schema:Text",
+      "enrollmentNumber":"schema:Text"
+   }
+}
