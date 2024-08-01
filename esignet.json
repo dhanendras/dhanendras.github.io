@@ -1,0 +1,61 @@
+{
+    "credential_issuer": "https://health.one1sewa.com",
+    "credential_endpoint": "https://api.collab.mosip.net/v1/esignet/vci/credential",
+    "display": [
+        {
+            "name": "e-Signet",
+            "locale": "en"
+        }
+    ],
+    "credentials_supported": [
+        {
+            "format": "ldp_vc",
+            "scope": "mock_identity_vc_ldp",
+            "cryptographic_binding_methods_supported": [
+                "did:jwk"
+            ],
+            "cryptographic_suites_supported": [
+                "RsaSignature2018"
+            ],
+            "proof_types_supported": [
+                "jwt"
+            ],
+            "credential_definition": {
+                "type": [
+                    "VerifiableCredential",
+                    "MockVerifiableCredential"
+                ],
+                "credentialSubject": {
+                    "name": {
+                        "display": [
+                            {
+                                "name": "Given Name",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "age": {
+                        "display": [
+                            {
+                                "name": "Age",
+                                "locale": "en"
+                            }
+                        ]
+                    }
+                }
+            },
+            "display": [
+                {
+                    "name": "Mock Verifiable Credential by e-Signet",
+                    "locale": "en",
+                    "logo": {
+                        "url": "https://api.collab.mosip.net/logo.png",
+                        "alt_text": "a square logo of a MOSIP"
+                    },
+                    "background_color": "#12107c",
+                    "text_color": "#FFFFFF"
+                }
+            ]
+        }
+    ]
+}
