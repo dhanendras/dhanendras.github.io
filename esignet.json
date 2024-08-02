@@ -1,6 +1,6 @@
 {
     "credential_issuer": "https://health.one1sewa.com",
-    "credential_endpoint": "https://api.collab.mosip.net/v1/esignet/vci/credential",
+    "credential_endpoint": "https://health.one1sewa.com/v1/esignet/vci/credential",
     "display": [
         {
             "name": "e-Signet",
