@@ -1,0 +1,19 @@
+{
+   "@context":{
+      "@version":1.1,
+      "@protected":true,
+      "type":"@type",
+      "schema":"https://schema.org/",
+      "EducationCredential":{
+         "@id":"https://dhanendras.github.io/interncontext.json#EducationCredential"
+      },
+      "dob":"schema:birthDate",
+      "gender":"schema:gender",
+      "doic":"schema:Text",     
+      "result":"schema:Text",
+      "duration":"schema:Text",      
+      "instituteName":"schema:Text",
+      "studentName":"schema:Text",
+      "enrollmentNumber":"schema:Text"
+   }
+}
